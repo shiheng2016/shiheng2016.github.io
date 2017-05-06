@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>石小墨的博客</title>
+  <subtitle>www.shiweiping.club</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-05-03T13:42:02.280Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>石小墨</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript高级程序设计（第三版）读书笔记</title>
+    <link href="http://yoursite.com/2017/05/03/JavaScript/"/>
+    <id>http://yoursite.com/2017/05/03/JavaScript/</id>
+    <published>2017-05-03T07:50:43.865Z</published>
+    <updated>2017-05-03T13:42:02.280Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;第三章-JS基本概念：语法，数据类型，流程控制语句，函数&quot;&gt;&lt;a href=&quot;#第三章-JS基本概念：语法，数据类型，流程控制语句，函数&quot; class=&quot;headerlink&quot; title=&quot;第三章 JS基本概念：语法，数据类型，流程控制语句，函数&quot;&gt;&lt;/a&gt;第三章 JS基本概念：语法，数据类型，流程控制语句，函数&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;3.1  语法&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	3.1.1   区分大小写    &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	    第一个概念就是 ECMAScript 中的一切（变量、函数名和操作符）都区分大小写 &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	    如：操作符 typeof不能作为函数名，但是&lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt;Of则完全可以是一个有效的函数名&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	3.1.2   标识符 &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		所谓标识符，就是指变量、函数、属性的名字，或者函数的参数。标识符可以是按照下列格式规则组合起来的一或多个字符：&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		 第一个字符必须是一个字母、下划线（_）或一个美元符号（$）；&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		 其他字符可以是字母、下划线、美元符号或数字。&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		   如：标识符采用驼峰大小写格式，也就是第一个字母小写，剩下的每个单词的&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		   首字母大写 firstSecond    不能把关键字、保留字、 &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;、 &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt; 和 null 用作标识符 &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	3.1.3   注释&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;           //    单行注释&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;           /*&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;               * 这是一个多行&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;               * （块级）注释&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;           */ &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	3.1.4   严格模式&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	     在严格模式下， ECMAScript 3 中的一些不确定的行为将得到处理，而且对某些不安全的操作也会抛出错误。要在整个脚本中启用严格模式，可以在顶部添加如下代码：&lt;span class=&quot;string&quot;&gt;&quot;use strict&quot;&lt;/span&gt;;    用于告诉支持的 JavaScript 引擎切换到严格模式  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	3.1.5   语句&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	 	 ECMAScript中的语句以一个分号结尾；如果省略分号，则由解析器确定语句的结尾&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Web优化之雅虎35条军规</title>
+    <link href="http://yoursite.com/2017/04/28/Yahoo/"/>
+    <id>http://yoursite.com/2017/04/28/Yahoo/</id>
+    <published>2017-04-28T01:16:04.145Z</published>
+    <updated>2017-05-03T13:32:13.478Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1、减少HTTP请求&quot;&gt;&lt;a href=&quot;#1、减少HTTP请求&quot; class=&quot;headerlink&quot; title=&quot;1、减少HTTP请求&quot;&gt;&lt;/a&gt;1、减少HTTP请求&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;合并图片（如css sprites，内置图片使用数据）、合并CSS、JS，这一点很重要，但是要考虑合并后的文件体积。80％的最终用户响应时间花费在前端。 大部分时间是绑在下载中的页面中的所有组成部分：图像，样式表，脚本，Flash等减少部件数量又减少呈现页面所需的HTTP请求的数目。 这是关键，更快的网页。&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;以减少在页面部件数量的一种方法是，以简化的页面设计。 但是，有没有方法来构建更丰富的内容页面，同时实现快速的响应时间？ 下面是一些技术来减少HTTP请求的数量，同时仍支持丰富的页面设计。&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;合并的文件是一个通过所有脚本组合成一个单一的脚本，并且类似地结合所有的CSS成单个样式表来减少HTTP请求的数目。 合并文件是更具挑战性的时候，脚本和样式变化一页一页地，却使得这部分的释放过程中提高响应时间。&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;2、使用CDN（内容分发网络）&quot;&gt;&lt;a href=&quot;#2、使用CDN（内容分发网络）&quot; class=&quot;headerlink&quot; title=&quot;2、使用CDN（内容分发网络）&quot;&gt;&lt;/a&gt;2、使用CDN（内容分发网络）&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;最终用户的响应时间80％-90％是花在下载的所有组件中的页面：图片，样式，脚本等&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;这里可以关注CDN的三类实现：镜像、高速缓存、专线，以及智能路由器和负载均衡；&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;3、为文件头指定Expires或Cache-Control，使内容具有缓存性。&quot;&gt;&lt;a href=&quot;#3、为文件头指定Expires或Cache-Control，使内容具有缓存性。&quot; class=&quot;headerlink&quot; title=&quot;3、为文件头指定Expires或Cache-Control，使内容具有缓存性。&quot;&gt;&lt;/a&gt;3、为文件头指定Expires或Cache-Control，使内容具有缓存性。&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;区分静态内容和动态内容，避免以后页面访问中不必要的HTTP请求。&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;对于静态组件：实现“永不过期”的政策通过设置不远的将来Expires头&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;对于动态组件：使用适当Cache-Control头，帮助有条件的请求浏览器，网页设计是越来越丰富，这意味着更多的脚本，样式表，图片和Flash的页面。 首次访客到你的页面可能要进行多次HTTP请求，但通过使用Expires头，你让这些组件缓存。 这样就避免了在后续页面访问量不必要的HTTP请求。 Expires头是最经常使用的图像，但他们应该在所有的组件，包括脚本，样式表和Flash组件使用。&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="http://yoursite.com/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2017/04/22/hello-world/"/>
+    <id>http://yoursite.com/2017/04/22/hello-world/</id>
+    <published>2017-04-22T09:33:11.453Z</published>
+    <updated>2017-05-06T12:29:04.426Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first
+    
+    </summary>
+    
+    
+      <category term="World" scheme="http://yoursite.com/tags/World/"/>
+    
+  </entry>
+  
+</feed>
