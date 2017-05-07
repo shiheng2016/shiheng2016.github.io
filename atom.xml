@@ -4,9 +4,9 @@
   <subtitle>www.shiweiping.club</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://shiweiping.club/"/>
   <updated>2017-05-03T13:42:02.280Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://shiweiping.club/</id>
   
   <author>
     <name>石小墨</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>JavaScript高级程序设计（第三版）读书笔记</title>
-    <link href="http://yoursite.com/2017/05/03/JavaScript/"/>
-    <id>http://yoursite.com/2017/05/03/JavaScript/</id>
+    <link href="http://shiweiping.club/2017/05/03/JavaScript/"/>
+    <id>http://shiweiping.club/2017/05/03/JavaScript/</id>
     <published>2017-05-03T07:50:43.865Z</published>
     <updated>2017-05-03T13:42:02.280Z</updated>
     
@@ -29,14 +29,14 @@
     </summary>
     
     
-      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://shiweiping.club/tags/JavaScript/"/>
     
   </entry>
   
   <entry>
     <title>Web优化之雅虎35条军规</title>
-    <link href="http://yoursite.com/2017/04/28/Yahoo/"/>
-    <id>http://yoursite.com/2017/04/28/Yahoo/</id>
+    <link href="http://shiweiping.club/2017/04/28/Yahoo/"/>
+    <id>http://shiweiping.club/2017/04/28/Yahoo/</id>
     <published>2017-04-28T01:16:04.145Z</published>
     <updated>2017-05-03T13:32:13.478Z</updated>
     
@@ -47,14 +47,14 @@
     </summary>
     
     
-      <category term="Web" scheme="http://yoursite.com/tags/Web/"/>
+      <category term="Web" scheme="http://shiweiping.club/tags/Web/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/04/22/hello-world/"/>
-    <id>http://yoursite.com/2017/04/22/hello-world/</id>
+    <link href="http://shiweiping.club/2017/04/22/hello-world/"/>
+    <id>http://shiweiping.club/2017/04/22/hello-world/</id>
     <published>2017-04-22T09:33:11.453Z</published>
     <updated>2017-05-06T12:29:04.426Z</updated>
     
@@ -65,7 +65,7 @@
     </summary>
     
     
-      <category term="World" scheme="http://yoursite.com/tags/World/"/>
+      <category term="World" scheme="http://shiweiping.club/tags/World/"/>
     
   </entry>
   
