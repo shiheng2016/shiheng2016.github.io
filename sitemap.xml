@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://shiweiping.club/about/index.html</loc>
+    
+    <lastmod>2017-05-17T08:02:48.047Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://shiweiping.club/about/MyResume.html</loc>
+    
+    <lastmod>2017-05-17T07:33:35.690Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://shiweiping.club/tags/index.html</loc>
     
     <lastmod>2017-05-07T03:37:30.432Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://shiweiping.club/categories/index.html</loc>
     
     <lastmod>2017-05-07T01:33:25.682Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://shiweiping.club/about/index.html</loc>
-    
-    <lastmod>2017-05-06T13:50:01.346Z</lastmod>
     
   </url>
   
